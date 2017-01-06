@@ -1,4 +1,4 @@
-FROM node:6.3
+FROM mhart/alpine-node:latest
 
 RUN npm config set loglevel warn
 RUN npm set progress=false
